@@ -1,0 +1,40 @@
+
+.inputBlock{
+    /* background-color: #65e1b5; */
+    /* min-height: 10rem; */
+    background-image: linear-gradient(to right, teal , black);
+    padding: 2rem;
+    /* border-radius: 10px; */
+}
+.inputField {
+    
+    border: none;
+    border-bottom :1px solid #e3e3e3;
+    outline : none;
+   
+    min-height: 2rem;
+}
+.button {
+    padding : 10px 25px;
+    background-color: white;
+    border: 1px solid #48a99b;
+    color: black;
+    font-size: medium;
+    min-height: 2rem;
+    width: 160px;
+   
+
+}
+button:hover {
+    cursor: pointer;
+}
+/* @media only screen and (min-width: 640px) and (max-width: 899px) {
+    .inputField{
+        width: 20rem;
+    }
+  }
+  @media only screen and (min-width: 900px) {
+    .inputField{
+        width: 15rem;
+    }
+  } */

@@ -1,0 +1,10 @@
+.more_option{
+    /* position: absolute; */
+    right: 0px;
+    top: 75px;
+    background: white;
+    width: 120px;
+    padding: 10px;
+    z-index: 1;
+  }
+  
