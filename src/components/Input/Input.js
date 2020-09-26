@@ -14,13 +14,18 @@ const Input = ({ addTask }) => {
   return (
     <Fragment>
       <div className={`${inputBlock} `}>
+        <h1 className="text-white mx-auto pb-6 font-bold text-xl">
+          To Do List
+        </h1>
         <input
           type="text"
           className={`${inputField} mx-auto md:w-1/2 px-4 py-2`}
           value={input}
           onChange={(e) => {
             e.stopPropagation();
-            setInput(e.target.value);
+            if (e.target.value !== "") {
+              setInput(e.target.value.trim());
+            }
           }}
         />
         <button
